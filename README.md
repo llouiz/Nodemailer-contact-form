@@ -5,7 +5,6 @@
 How to send an email using Nodemailer
 
 Prerequisite:
-- Nodejs (Installed)
 - [Nodejs](https://nodejs.org/en/) (Installed)
 
 
