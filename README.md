@@ -6,6 +6,7 @@ How to send an email using Nodemailer
 
 Prerequisite:
 - Nodejs (Installed)
+- [Nodejs](https://nodejs.org/en/) (Installed)
 
 
 #### Step 1
@@ -25,4 +26,4 @@ let transporter = nodemailer.createTransport({
 ```
 
 #### Step 3
-Once you have successfully completed the above steps. Run `npm start` to send an email
+Once you have successfully completed the above steps. Run `npm run dev` to start the server.
