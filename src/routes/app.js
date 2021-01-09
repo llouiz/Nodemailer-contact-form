@@ -25,7 +25,7 @@ router.post('/send-email', async (req, res) => {
         port: 587,
         secure: false,
         auth: {
-            user: 'yourmail@gmail.com',
+            user: 'youremail@gmail.com',
             pass: 'yourpassword'
         },
         tls: {
@@ -37,8 +37,8 @@ router.post('/send-email', async (req, res) => {
     // setup email data with unicode symbols
     // send mail with defined transport object
     let info = await transporter.sendMail({
-        from: '"Legolas" <yourmail@gmail.com>', // sender address,
-        to: 'yourmail@gmail.com',
+        from: '"Whatever you wanna call" <youremail@gmail.com>', // sender address,
+        to: 'youremail@gmail.com',
         subject: req.body.subject,
         // text: 'Hello World'
         html: contentHTML
